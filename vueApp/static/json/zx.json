@@ -1,0 +1,78 @@
+[
+    {
+        "id": "1",
+        "tit": ["珍妮","安妮"],
+        "price": [76,88],
+        "zan":"20",
+        "like":"6",
+        "comment":"2",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character.png",
+        "img": [
+            "https://img10.360buyimg.com/n1/jfs/t280/281/1399062671/330063/ee1c240b/5438ebf3Na21974a2.jpg",
+            "https://img10.360buyimg.com/n1/g14/M05/1B/1B/rBEhVlMz56gIAAAAAAZvDZqr5MQAAK7YwNYZggABm8l235.jpg",
+            "https://img14.360buyimg.com/n1/jfs/t5350/178/1045351732/78951/cfea63cb/590ada61N652b8802.jpg",
+            "https://img10.360buyimg.com/n1/jfs/t280/281/1399062671/330063/ee1c240b/5438ebf3Na21974a2.jpg"
+        ],
+        "content": ["壁画家饰软装 竹子","很漂亮的花瓶,插鲜艳的花，装饰餐桌"]
+    },
+    {
+        "id": "2",
+        "tit": ["甄妮","珍妮"],
+        "price": [106,58],
+        "zan":"18",
+        "like":"5",
+        "comment":"4",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character1.png",
+        "img": [
+            "https://img10.360buyimg.com/n1/jfs/t3643/169/930596192/295326/80f0feee/58197b5aNa04ffe78.jpg",
+            "https://img10.360buyimg.com/n1/jfs/t3646/258/533454683/301128/d3be675a/580da493N32604892.jpg",
+            "https://img10.360buyimg.com/n1/jfs/t3643/169/930596192/295326/80f0feee/58197b5aNa04ffe78.jpg",
+            "https://img10.360buyimg.com/n1/jfs/t3646/258/533454683/301128/d3be675a/580da493N32604892.jpg"
+        ],
+        "content": ["壁画家饰软装 竹子","很漂亮的花瓶,插鲜艳的花，装饰餐桌"]
+    },
+    {
+        "id": "3",
+        "tit": ["玲娜","甄妮 "],
+        "price": [52,126],
+        "zan":"30",
+        "like":"8",
+        "comment":"6",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "img": [
+            "https://img14.360buyimg.com/n1/g14/M01/14/02/rBEhVVJTitIIAAAAAAWNQgglbzoAAD6-ADhCQIABY1a649.jpg",
+            "https://img14.360buyimg.com/n1/g14/M00/14/02/rBEhVlJTisYIAAAAAAOp9DzthaEAAD69wPPU-kAA6oM141.jpg",
+            "https://img14.360buyimg.com/n1/g14/M01/14/02/rBEhVVJTitIIAAAAAAWNQgglbzoAAD6-ADhCQIABY1a649.jpg",
+            "https://img14.360buyimg.com/n1/g14/M00/14/02/rBEhVlJTisYIAAAAAAOp9DzthaEAAD69wPPU-kAA6oM141.jpg"
+        ],
+        "content": ["壁画家饰软装 竹子","很漂亮的花瓶,插鲜艳的花，装饰餐桌"]
+    },
+    {
+        "id": "4",
+        "tit": ["甄妮 ","玲娜"],
+        "price":[92,188],
+        "zan":"24",
+        "like":"8",
+        "comment":"8",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character.png",
+        "img": [
+            "https://img11.360buyimg.com/n1/g13/M01/11/13/rBEhVFJh-kwIAAAAAATvGregZAMAAEVIAOtFJwABO8y088.jpg",
+            "https://img11.360buyimg.com/n1/jfs/t4213/32/727084513/86099/f24303f2/58b900f7Nb212ec1c.jpg",
+            "https://img11.360buyimg.com/n1/g13/M01/11/13/rBEhVFJh-kwIAAAAAATvGregZAMAAEVIAOtFJwABO8y088.jpg",
+            "https://img11.360buyimg.com/n1/jfs/t4213/32/727084513/86099/f24303f2/58b900f7Nb212ec1c.jpg"
+        ],
+        "content": ["壁画家饰软装 竹子","很漂亮的花瓶,插鲜艳的花，装饰餐桌"]
+    } 
+]

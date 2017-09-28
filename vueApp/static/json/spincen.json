@@ -1,0 +1,135 @@
+[
+    {
+        "id": "1",
+        "tit": "水星家纺 纯棉三/四件套 夏沫之晨全棉斜纹印花床单被套床上用品",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 299.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i3/TB1SUEyHXXXXXbJXFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/TB1SUEyHXXXXXbJXFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/92042735/TB2kH.yeEhnpuFjSZFEXXX0PFXa_!!92042735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/92042735/TB2ddhkrVXXXXcLXXXXXXXXXXXX_!!92042735.png_430x430q90.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": "2",
+        "tit": "多喜爱MMK家纺田园床品纯棉四件套全棉套件床品杜伊勒丽",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price":249.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i1/114141735/TB1XGYPc.gQMeJjy0FjXXaExFXa_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/114141735/TB2B139tFXXXXadXpXXXXXXXXXX_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/114141735/TB2ebPJwCFjpuFjSspbXXXagVXa_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/114141735/TB2PPfoA7qvpuFjSZFhXXaOgXXa_!!114141735.jpg_430x430q90.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": "3",
+        "tit": "北极绒家纺 活性印花全棉四件套床上用品床单1.8m床纯棉简约被套 ",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 189.90,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i4/2091294084/TB2cEYAbH_0UKFjy1XaXXbKfXXa_!!2091294084.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/2091294084/TB2xhmWlohnpuFjSZFEXXX0PFXa_!!2091294084.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i1/2091294084/TB2NFaNlohnpuFjSZFpXXcpuXXa_!!2091294084.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/2091294084/TB2uR17lbxmpuFjSZJiXXXauVXa_!!2091294084.png_430x430q90.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    },
+    {
+        "id": "4",
+        "tit": "北极绒家纺 韩版简约活性全棉四件套纯棉印花床上用品1.5m1.8米床",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price":179.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i2/729416087/TB19OgUXfNNTKJjSspeXXaSwpXa_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i1/729416087/TB2BvkUXfNNTKJjSspcXXb4KVXa_!!729416087.png_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/729416087/TB2S6HEX6uhSKJjSspmXXcQDpXa_!!729416087.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/TB17XpLSpXXXXaUXVXXYXGcGpXX_M2.SS2_430x430q90.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    },
+    {
+        "id": "5",
+        "tit": "多喜爱四件套全棉床上用品家纺简约床品欧美条纹套件运动风潮Ⅱ",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 249.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i4/114141735/TB1kzfQc_ZRMeJjSspoXXcCOFXa_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i1/114141735/TB2LjdotVXXXXcfXXXXXXXXXXXX_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/114141735/T24meeXXxdXXXXXXXX_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/114141735/T2EGVGXb4NXXXXXXXX_!!114141735.jpg_430x430q90.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    },
+    {
+        "id": "6",
+        "tit": "多喜爱床单四件套斜纹全棉床上用品纯棉家纺田园床品套件缤纷摩卡",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 199.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i4/114141735/TB2W7EWquJ8puFjy1XbXXagqVXa_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/114141735/TB2MVajsg0kpuFjSspdXXX4YXXa_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/114141735/TB2uB9QshXkpuFjy0FiXXbUfFXa_!!114141735.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/114141735/TB2gCqushdkpuFjy0FbXXaNnpXa_!!114141735.jpg_430x430q90.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    },
+     {
+        "id": "7",
+        "tit": "罗莱luolai家纺儿童乳胶枕头3-6岁幼儿学生天然枕芯颈椎枕床上新",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 189.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i2/2785566324/TB12JwLgm3PL1JjSZFxXXcBBVXa_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/2785566324/TB2Z3BNXh3IL1JjSZPfXXcrUVXa_!!2785566324.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/2785566324/TB2Xs1FXBfkJKJjSspeXXbgPFXa_!!2785566324.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/2785566324/TB2.VN2X4eEJuJjy1XaXXXPhVXa_!!2785566324.jpg_430x430q90.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": "8",
+        "tit": "富丽真金家纺 全棉四件套枕套床单被套 纯棉床上用品 多花色套件",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 298.00,
+        "img": [
+            "https://img.alicdn.com/bao/uploaded/i1/TB1VYcgQFXXXXcmXVXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/1810407058/TB2RbJigR4lpuFjy1zjXXcAKpXa_!!1810407058.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i1/1810407058/TB2q0V8XQ_kJKJjSspdXXafQVXa_!!1810407058.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i1/1810407058/TB2ATUBnhxmpuFjSZFNXXXrRXXa_!!1810407058.jpg_430x430q90.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    }
+]

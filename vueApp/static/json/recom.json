@@ -1,0 +1,67 @@
+[{
+        "id": "1",
+        "tit": "全棉毛毯100棉毯子",
+        "lei":"特惠毛毯",
+        "name":"小情绪",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character.png",
+        "price": 219.00,
+        "img": [
+            "https://img12.360buyimg.com/n1/jfs/t2044/363/966560818/329196/217e903d/563873c1N06b198c0.jpg",
+            "https://img12.360buyimg.com/n1/jfs/t2653/189/2476399860/481923/752cb5c5/5767b5f9N940a806f.jpg",
+            "https://img12.360buyimg.com/n1/jfs/t4591/275/133872995/380653/e95eb425/58ca5aefNcebee426.jpg",
+            "https://img12.360buyimg.com/n1/jfs/t2563/166/496051176/148092/f62bcb41/5652a616N9faa6883.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": "2",
+        "tit": "真丝提花双人毛毯",
+        "lei":"毛毯新品",
+        "name":"懒洋洋",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character1.png",
+        "price": 109,
+        "img": [
+            "https://img14.360buyimg.com/n1/jfs/t3865/326/375143776/344720/7b739172/584bff7eN24d4f956.jpg",
+            "https://img14.360buyimg.com/n1/jfs/t3112/262/4585447629/321876/cd0a756/584bff7fNd828fcd1.jpg",
+            "https://img14.360buyimg.com/n1/jfs/t3634/140/2305571741/313794/3a5fd35b/584bff80N7888d72d.jpg",
+            "https://img12.360buyimg.com/n1/jfs/t2563/166/496051176/148092/f62bcb41/5652a616N9faa6883.jpg"
+        ],
+        "content": ""
+    },
+    {
+        "id": "3",
+        "tit": "纯棉毛毯棉毯全棉六层纱布 ",
+        "lei":"纯棉毛毯",
+        "name":"勤劳的小白鸽",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character2.png",
+        "price": 299.90,
+        "img": [
+            "https://img13.360buyimg.com/n1/jfs/t8983/273/1038010050/622101/1e4d3352/59b37aa6Na913a4c5.jpg",
+            "https://img13.360buyimg.com/n1/jfs/t7621/315/2681853180/741047/67078bea/59b37aa7Nd8643cf5.jpg",
+            "https://img13.360buyimg.com/n1/jfs/t7897/166/2677683233/431989/dedb21d6/59b37aa5N73827c93.jpg",
+            "https://img12.360buyimg.com/n1/jfs/t2563/166/496051176/148092/f62bcb41/5652a616N9faa6883.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    },
+    {
+        "id": "4",
+        "tit": "棉毯子夏季毛毯 ",
+        "lei":"夏季毛毯",
+        "name":"闲庭信步",
+        "describe":["适合家用","很漂亮,很精致","物美价廉"],
+        "portrait":"./static/images/character.png",
+        "price": 125.90,
+        "img": [
+            "https://img14.360buyimg.com/n1/jfs/t2854/76/1861997471/191727/5f20b25a/574cdee7N6c2694af.jpg",
+            "https://img14.360buyimg.com/n1/jfs/t2611/94/1833069311/184031/dc785c04/574cdee9N611eca68.jpg",
+            "https://img14.360buyimg.com/n1/jfs/t2776/184/1833847955/185401/76c6cf38/574cdee8N136226f4.jpg",
+            "https://img12.360buyimg.com/n1/jfs/t2563/166/496051176/148092/f62bcb41/5652a616N9faa6883.jpg"
+        ],
+        "size": "38*38*38",
+        "content": ""
+    }
+]
