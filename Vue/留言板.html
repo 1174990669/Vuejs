@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<script src="./js/jquery-1.11.1.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="vue.js"></script>
+	<style>
+		p{font-size: 20px;margin-top: 10px;color:green;}
+		button{margin-top: 8px;font-size: 18px;}
+		.p-border{width: 100%;border-bottom: 1px solid gray;margin-top:20px}
+		h2{color:green;}
+		.tab{width: 100%;font-size: 18px;text-align:center;}
+		.tab th{text-align:center;height: 40px}
+		.tab td{height: 50px}
+		#but{margin-top: 1px}
+		#footer{border:1px solid gray;height: 52px;padding-right: 10px}
+	</style>
+</head>
+<body>
+<div calss="container-fluid" >
+	<div class="container" id="ad">
+		<div class="con">
+			<p>用户名</p>
+			<input type="text" class='form-control' placeholder="请输入用户名" 
+			v-model="inpText" >
+			<p>年 龄：</p>
+			<input type="text" class='form-control' placeholder="输入年龄" 
+			v-model="inpuTe" v-on:keyup.enter="cen">
+			<button class="btn btn-success" v-on:click="tan">添加</button>
+			<button class="btn btn-info" v-on:click="con">重置</button>
+			<p class="p-border"></p>
+		</div>
+		<div class="ro">
+			<h2 class="text-center">用户信息表</h2>
+				<table border='1' class="tab">
+					<tr>
+						<th>序号</th>
+						<th>名字</th>
+						<th>年龄</th>
+						<th>操作</th>
+					</tr>
+					<tr v-for="(item,index) in title">
+						<td>{{index}}</td>
+						<td>{{item.fon}}</td>
+						<td>{{item.ofo}}</td>
+						<td>
+							<button class="btn btn-success" id="but" v-on:click="cli(item)">删除</button>
+						</td>
+					</tr>
+				</table>
+				<div id="footer">
+					<button class="btn btn-danger pull-right" v-on:click="sa">删除全部</button>
+				</div>
+		</div>
+	</div>
+</div>
+	<script>
+		new Vue({
+			el:'#ad',
+			data:{
+				title:[{
+					fn:'0',
+					fon:'张小三',
+					ofo:'18',
+				}],
+				// tex:'',
+				inpText:'',
+				inpuTe:'',
+			},
+			methods:{
+				cli(ev){
+					var index = this.title.indexOf(ev);
+					this.title.splice(index,1);
+					alert('确定删除当前任务？')
+				},
+				tan(){
+					this.title.push({
+						fon:this.inpText,
+						ofo:this.inpuTe,
+					})
+					this.inpText='';
+					this.inpuTe='';
+				},
+				con(){
+					this.inpText='';
+					this.inpuTe=''
+				},
+				sa(){
+					this.title=[];
+				},
+				// cen(){
+					// console.log(1)
+				// },
+				cen(){
+					this.title.push({
+						fon:this.inpText,
+						ofo:this.inpuTe,
+					})
+					this.inpText='';
+					this.inpuTe='';
+					console.log(1)
+				},
+			}
+		})
+
+	</script>
+</body>
+</html>

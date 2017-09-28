@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>props</title>
+	<script src="vue.js"></script>
+	<style>
+	</style>
+</head>
+<body>
+	<div id="dd">
+		<sele :modal-title="aa" v-on:on-ok="con"></sele>
+		<sele :modal-title="bb" v-on:on-k="cn"></sele>
+	</div>	
+
+	<script>
+	Vue.component('sele',{
+		props:{
+			modalTitle:{
+				// title:'0'
+			},
+			modalFooter:{
+				// titl:'0'
+			},
+		},
+		template:`<div>
+			<h4>{{modalTitle}}</h4>
+			<input type="button" value="button" v-on:click="inu" @click="put"/>
+
+		</div>`,
+		methods:{
+			inu(){
+				// alert(1)
+				// this.modalTitle++;
+				this.$emit("on-ok")
+			},
+			put(){
+				this.$emit('on-k')
+			}
+		}
+	})
+		new Vue({
+			el:"#dd",
+			data:{
+				aa:1,
+				bb:10
+			},
+			methods:{
+				con(){
+					// alert(2)
+					this.aa++;
+				},
+				cn(){
+					this.bb++
+				}
+			},
+		})
+	</script>
+</body>
+</html>

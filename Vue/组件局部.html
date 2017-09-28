@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件</title>
+	<script src="vue.js"></script>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+	<div id="app">
+		<app-select bun-value="搜索" on-value="第一个"></app-select>
+		<app-select bun-value="查询" on-value="数字"></app-select>
+	</div>
+	<!-- <div id="app2"> -->
+		<!-- <app-select bun-value="搜索"></app-select> -->
+	<!-- </div> -->
+	<script>
+		
+		var off={
+			props:['bunValue','onValue'],
+			// props:[],
+			template:`<section class="warp">
+				<div class="searchIpt clearFix">
+					<div class="clearFix">
+						<input type="text" class="keyWord" value="" />
+						<input type="button" v-bind:value="bunValue">
+						<span></span>
+					</div>
+					<ul class="list">
+						<li>{{onValue}}</li>
+						<li>html5+css3</li>
+						<li>javascript</li>
+						<li>angular</li>
+						<li>react</li>
+						<li>vue</li>
+						<li>jquery</li>
+						<li>nodejs</li>
+					</ul>
+				</div>
+			</section>`
+		}
+		new Vue({
+			el:'#app',
+			components:{//局部组件开发
+				'appSelect':off
+			}
+
+		})
+
+		/*var keyWord = document.querySelector('.keyWord');
+		var list = document.querySelector('.list');
+		var lis = list.querySelectorAll('li');
+
+		keyWord.onfocus = function() {
+			list.style.display = 'block';
+		}
+
+		keyWord.onblur = function() {
+			setTimeout(function() {
+				list.style.display = 'none';
+			}, 80);
+		}
+
+		for (var i=0; i<lis.length; i++) {
+			lis[i].onclick = function() {
+				for (var i=0; i<lis.length; i++) {
+					lis[i].className = '';
+				}
+				this.className = 'active';
+				// console.log( this.innerHTML );
+				keyWord.value = this.innerHTML;
+			}
+		}*/
+	</script>
+</body>
+</html>

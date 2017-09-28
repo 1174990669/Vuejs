@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>vue打豆豆</title>
+	<script src="vue.js"></script>
+	<style>
+		body,h2{margin:0;}
+		#header{background:#db4c3f;width: 100%}
+		.h2{margin:0 auto;width: 50%;color:white;}
+		.center{margin:0 auto;width: 50%;}
+		.inp{width: 100%;padding:5px;font-size: 16px}
+		.center-div{margin-top: 20px}
+		ul{float: right;margin:0;}
+		li{list-style: none;display: inline-block;border:1px solid gray;}
+		dt{border-bottom: 1px solid gray;font-size: 18px}
+		dd{margin:0;font-size: 18px}
+		.checkbox{width: 20px;height: 20px;}
+		i{float: right;padding-right: 4px}
+		dd.active span{text-decoration:line-through;color:gray;}
+		.edite{display: none;}
+		dd.editing .view{display: none;}
+		dd.editing .edite{display: block;width: 100%;padding:5px;font-size: 18px;}
+		.text{width: 100%;padding:5px;font-size: 18px;}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h2 class="h2">任务计划列表</h2>
+	</div>
+	<div class="center">
+		<h4 class="h4">添加任务：</h4>
+		<input type="text" 
+		placeholder="例如：吃饭 睡觉 打豆豆； 提示：+回车即可添加任务" class="inp" 
+		v-on:keyup.enter="add"
+		v-model="inpText"
+		>
+		<div class="center-div">
+			<strong v-show='items.length'>{{chec}}个未完成任务</strong>
+			<ul v-show='items.length'>
+				<li><a href="#1">所有任务</a></li>
+				<li><a href="#2">未完成任务</a></li>
+				<li><a href="#3">已完成任务</a></li>
+			</ul>
+			<h4 class='h4'>任务列表:</h4>
+			<dl id="span">
+				<dt v-show='!items.length'>还没有添加任何任务</dt>
+				<dd v-for='item in items' v-bind:class="{active : item.isChecked, editing:editeT===item}">  
+					<div class="view" v-on:dblclick="editingTodo(item)">
+						<input type="checkbox" class="checkbox" v-model="item.isChecked"> 
+						<span >{{item.fon}}</span> 
+						<i v-on:click="cli(item)">X</i>
+					</div>
+					<input type="text" class="edite" v-on:keyup.enter="edited" v-model="item.fon" v-foucs="item === editeT" v-on:blur="edited">
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<script>
+		var span = new Vue({
+			el:'.center',
+			data:{
+				items:[
+					/*{
+						fon:'选项3',
+						isChecked:false
+					}*/
+				],
+				inpText:'',
+				editeT:'',
+			},
+			methods:{
+				cli(ev){
+					var index = this.items.indexOf(ev);
+					this.items.splice(index,1);
+					console.log(this.items.indexOf(ev))
+				},
+				add(){
+					this.items.push({
+						fon:this.inpText,
+						isChecked:false						
+					})
+					this.inpText=""
+				},
+				editingTodo(todo){
+					this.editeT = todo;
+					// console.log(this.edite = todo);
+				},
+				edited(){
+					this.editeT = ''
+					// console.log(this.editeT)
+				},
+			},
+
+
+			directives : {
+				"foucs" : function (el,binding){//获取元素焦点
+					if (binding.value) {
+						el.focus()
+						// console.log(1)
+					}
+			    }
+			},
+			computed:{//计算属性
+				chec(){
+					return this.items.filter(function(item){
+						return !item.isChecked//取反未完成任务
+						// console.log(1)
+					}).length
+				}
+			}
+		}) 
+
+	</script>
+</body>
+</html>

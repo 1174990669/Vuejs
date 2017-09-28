@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>百度搜索</title>
+	<link rel="stylesheet" href="./css/bootstrap.css">
+	<script src="./js/jquery-1.11.1.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="vue.js"></script>
+	<script src="vue-resource.js"></script>
+	<style>
+		.gray{background: #ccc;}
+	</style>
+</head>
+<body>
+	<div id="ad">
+		<input type="text" placeholder="请输入内容"  v-model="inValu" v-on:keyup="get" 
+		v-on:keydown.down="dow()" v-on:keydown.up.prevent="changeUp()">
+		<ul>
+			<li v-for="value in title" :class="{gray:(value.index)==itm}">{{value}}</li>
+			
+		</ul>
+		<p v-show="!inValu.length">暂无搜索内容</p>
+	</div>
+	<script>
+		new Vue({
+			el:'#ad',
+			data:{
+				title:[],
+				inValu:'',
+				itm:-1,
+			},
+			methods:{
+				get:function(){
+					this.$http.jsonp('https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su',{wd:this.inValu},{
+						jsonp:'cb'
+					})
+					.then(
+						function(res){
+							this.title=res.data.s;
+							// console.log(res.data.s)
+						},function(res){
+							// alert(0)
+						}
+					)
+				},
+				dow:function(){
+					this.itm++;
+                        if(this.itm==this.title.length)this.itm=-1;
+                        this.inValu=this.title[this.itm];
+					// console.log(1)
+					// this.itm++
+				},
+				changeUp:function(){
+                        this.itm--;
+                        if(this.itm==-2)this.itm=this.title.length-1;
+                        this.inValu=this.title[this.itm];
+                    }
+			}
+		})
+	</script>
+</body>
+</html>

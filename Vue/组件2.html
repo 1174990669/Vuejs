@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>组件</title>
+	<script src="vue.js"></script>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+	<div id="app">
+		<app-select bun-value="搜索"  v-bind:list="list1"></app-select>
+		<app-select bun-value="查询"  v-bind:list="list2"></app-select>
+	</div>
+	<div id="app2">
+		<app-select bun-value="搜索" v-bind:list="list3"></app-select>
+	</div>
+	<script>
+		Vue.component('appSelect',{
+			data:function(){
+				return {
+					selectShow:false,
+					val:''
+				};
+			},
+			props:['bunValue','list'],
+			template:`<section class="warp">
+				<div class="searchIpt clearFix">
+					<div class="clearFix" >
+						<input type="text" class="keyWord" v-bind:value="val" 
+							v-on:click="selectShow = !selectShow"
+						/>
+						<input type="button" v-bind:value="bunValue">
+						<span></span>
+					</div>
+					<ul class="list" 
+					v-show="selectShow"
+					v-bind:list="list"
+					>
+						<li v-for="aab in list" v-on:click="changeValueHandle(aab)">{{aab}}</li>
+					</ul>
+				</div>
+			</section>`,
+			methods:{
+				changeValueHandle(value){
+					// console.log(valu)
+					this.val = value;
+				}
+			}
+		})
+		new Vue({
+			el:'#app',
+			data:{
+				list1:["深圳","北京","上海","广州","香港"],
+				list2:["龙华","南山","福田","宝安","龙岗"]
+			}
+		})
+		new Vue({
+			el:'#app2',
+			data:{
+				list3:["深圳1","北京1","上海1","广州1","香港1"],
+				// list2:["龙华","南山","福田","宝安","龙岗"]
+			}
+		})
+	</script>
+</body>
+</html>
